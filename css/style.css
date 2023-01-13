@@ -998,6 +998,10 @@ textarea.input {
   padding-bottom: 0.3125rem;
 }
 
+._header-scroll .menu__link {
+  text-shadow: none !important;
+}
+
 .menu__link:hover::before {
   width: 100%;
 }
@@ -1269,7 +1273,7 @@ textarea.input {
   line-height: 1.328125;
   font-family: Playfair Display;
   color: #fff;
-  text-shadow: 2px 2px 10px #000000;
+  text-shadow: 2px 2px 2px #000000;
   -webkit-transform: translate(0px, 120%);
       -ms-transform: translate(0px, 120%);
           transform: translate(0px, 120%);
@@ -1296,7 +1300,7 @@ textarea.input {
 .content-main__text {
   line-height: 1.1666666667;
   color: #ffffff;
-  text-shadow: 2px 2px 10px #000000;
+  text-shadow: 2px 2px 2px #000000;
   -webkit-transform: translate(0px, 120%);
       -ms-transform: translate(0px, 120%);
           transform: translate(0px, 120%);
@@ -2197,7 +2201,7 @@ textarea.input {
   }
 
   .menu__link {
-    text-shadow: 2px 2px 10px #000000;
+    text-shadow: 2px 2px 2px #000000;
   }
 }
 
@@ -3132,7 +3136,9 @@ textarea.input {
   }
 
   .planners__slider {
-    margin-right: 0;
+    margin-right: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
   .item-planners__image-ibg:hover {
