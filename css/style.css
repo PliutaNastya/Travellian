@@ -998,10 +998,6 @@ textarea.input {
   padding-bottom: 0.3125rem;
 }
 
-._header-scroll .menu__link {
-  text-shadow: none !important;
-}
-
 .menu__link:hover::before {
   width: 100%;
 }
@@ -1273,7 +1269,6 @@ textarea.input {
   line-height: 1.328125;
   font-family: Playfair Display;
   color: #fff;
-  text-shadow: 2px 2px 2px #000000;
   -webkit-transform: translate(0px, 120%);
       -ms-transform: translate(0px, 120%);
           transform: translate(0px, 120%);
@@ -1300,7 +1295,6 @@ textarea.input {
 .content-main__text {
   line-height: 1.1666666667;
   color: #ffffff;
-  text-shadow: 2px 2px 2px #000000;
   -webkit-transform: translate(0px, 120%);
       -ms-transform: translate(0px, 120%);
           transform: translate(0px, 120%);
@@ -2198,10 +2192,6 @@ textarea.input {
     display: grid;
     -ms-grid-columns: 1fr 2fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
-  }
-
-  .menu__link {
-    text-shadow: 2px 2px 2px #000000;
   }
 }
 
